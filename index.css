@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image:url(img/lp-hero-gb-v2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
