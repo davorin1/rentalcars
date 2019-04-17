@@ -1,22 +1,30 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width">
+    <title>Rentalcars.com</title>
+    <link href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" rel="Stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
 
 <main>
 
+    <!-- SEARCH FORM -->
     <div id="app">
         <h2>Where are you going?</h2>
         <form>
             <label>Pick-up location</label>
-            <input type="text" name="location" placeholder="city, airport, station, region, district..." class="input-location">
+            <input id="city" type="text" name="location" placeholder="city, airport, station, region, district..." class="input-location">
         </form>
     </div>
 
 </main>
 
+<!-- load JQUERY -->
+<script src="jquery.js"></script>
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js" ></script>
+<!-- load APP -->
 <script src="index.js"></script>
+
 </body>
 </html>
